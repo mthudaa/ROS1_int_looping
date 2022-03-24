@@ -1,0 +1,14 @@
+<launch>
+	<node
+		pkg="number"
+		type="number_pub_node"
+		name="number_pub_node"
+		output="screen"
+	/>
+	<node
+		pkg="number"
+		type="number_sub_node"
+		name="number_sub_node"
+		output="screen"
+	/>
+</launch>
